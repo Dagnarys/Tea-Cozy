@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+.top{
+    height: 69px;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    z-index:1;
+}
+.text{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.text p{
+    text-decoration: underline;
+    padding: 8px;
+}
+.teacosy{
+    display: flex;
+    align-items: center;
+}
+.teacosy img{
+    display: flex;
+    padding-left: 10px;   
+    height: 50px;
+    
+    
+}
+.our_mission{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/img-mission-background.jpg);  
+    width: 1200px;
+    height: 700px;
+    object-fit: cover;
+    margin: auto;
+    
+}
+.text1{
+    width: 100%;    
+    
+   
+}
+.our_mission h2,h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+/* gallery after mission*/
+
+.gallery{
+
+    padding-top: 80px;
+}
+.boxes{
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.boxes img {
+    height: 200px;
+    width: 300px;
+    padding:10px;
+    
+}
+.boxes p{
+    padding-bottom: 10px;
+}
+    
+.locations{
+    
+    background-image: url(/img/img-locations-background.jpg);
+    
+    height: 550px;
+    width: 1200px;
+    margin:50px auto 0 auto;
+    
+    
+}
+.locations h2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 100px;
+}
+
+.boxes1{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    flex-wrap: wrap;
+    
+    
+}
+.box1{
+    background-color: black;
+    width: 300px;
+    margin: 1%;
+    
+   
+    text-align: center;
+}
+.box1 p,h3{
+    padding: 20px 0;
+
+}
+.contacts{
+    margin-top: 10px;
+    height: 200px;
+    text-align: center;
+}
+.contacts h2{
+    padding-bottom: 15px;
+}
+.contacts h5{
+    padding: 10px 0;
+}
+.foot {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
